@@ -17,7 +17,7 @@ Cloned from: https://github.com/techwithtim/Microsoft-Live-Demo/tree/main
     https://github.com/techwithtim/Microsoft-Live-Demo.git
 
     Set the remote to your own gitHub repo
-    git remote set-url origin https://github.com/lesterw53679/mygitHubActions
+    git remote set-url origin https://github.com/lesterw53679/gitHubActions-demo
 
 6. lets explore some other git commmands
 
@@ -31,7 +31,7 @@ Cloned from: https://github.com/techwithtim/Microsoft-Live-Demo/tree/main
 
     (we've added a file modified it since we last staged and commit, lets do that first)
     git add .
-    git commit -m "added some files and modified others"
+    git commit -m "first commit"
 
 7. Push to gitHub
     git push -u origin main    // this will push all the changes to gitHub, do another commit if you wish
