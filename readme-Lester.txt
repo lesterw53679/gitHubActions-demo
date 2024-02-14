@@ -36,25 +36,17 @@ Cloned from: https://github.com/techwithtim/Microsoft-Live-Demo/tree/main
 7. Push to gitHub
     git push -u origin main    // this will push all the changes to gitHub, do another commit if you wish
 
+8. Pull from remote  (first make some changes to the repo in GitHub, like add a readme file) 
+    git pull origin main
 
-7. Install the GitHub actions extension for VSCode
+9. Branching:  Lets try branching and doing a pull request
+    git checkout -b changeBranch
+ (now we are local and sitting on the "changeBranch" branch, make some modifications to files)
+
+    git add .
+    git commit -m "branch example commit"
+    git push -u origin main
+
+8. Install the GitHub actions extension for VSCode
     (this will make it easier to do work with actions from VSCode)
 
-
-,
-
-https://github.com/lesterw53679/mygitHubActions
-
-https://github.com/en-rik/python-flask-blog.git
-
-3. open a terminal and initialize the git repo: 
-    git init
-    git add .
-    
-    git commit -m "first commit"
-    git remote add origin https://github.com/lesterw53679/github-actions-demo-withTim.git
-    git branch -M main
-    git push -u origin main
-    git remote set-url origin https://lesterw53679@github.com/lesterw53679/github-actions-demo-withTim.git
-
-4. 
