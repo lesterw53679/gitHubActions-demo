@@ -44,9 +44,20 @@ Cloned from: https://github.com/techwithtim/Microsoft-Live-Demo/tree/main
  (now we are local and sitting on the "changeBranch" branch, make some modifications to files)
 
     git add .
-    git commit -m "branch example commit"
-    git push -u origin main
+    git commit -m "branch example commit 2"
+    git push origin changeBranch
 
-8. Install the GitHub actions extension for VSCode
+10. Go back to GitHub and do a compare and pull, this will trigger the 
+
+
+on:
+  pull_request: [push, workflow_dispatch]
+    branches:
+      - "main"
+      - "prod"
+
+
+10. Install the GitHub actions extension for VSCode
     (this will make it easier to do work with actions from VSCode)
+11. Break the code, raise 
 
