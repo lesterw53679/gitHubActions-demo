@@ -47,8 +47,10 @@ Cloned from: https://github.com/techwithtim/Microsoft-Live-Demo/tree/main
     git commit -m "branch example commit 2"
     git push origin changeBranch
 
-10. Go back to GitHub and do a compare and pull, this will trigger the 
-
+10. Merge Branch: Go back to GitHub and do a compare and pull, this will trigger the 
+    select the branch you want to merge into the main branch
+    compare the differences, check that we have successfully passed all the tests
+    
 
 on:
   pull_request: [push, workflow_dispatch]
