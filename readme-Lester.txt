@@ -47,19 +47,28 @@ Cloned from: https://github.com/techwithtim/Microsoft-Live-Demo/tree/main
     git commit -m "branch example commit 2"
     git push origin changeBranch
 
-10. Merge Branch: Go back to GitHub and do a compare and pull, this will trigger the 
+
+10. Merge Branch: Go back to GitHub and do a compare and pull, this will trigger the action because we are doing a pull and compare on this
+
     select the branch you want to merge into the main branch
     compare the differences, check that we have successfully passed all the tests
-    
 
-on:
-  pull_request: [push, workflow_dispatch]
-    branches:
-      - "main"
+ 11. Bring your local project up to date:
+    git pull origin main    //now your local is up to date, merged branches
+
+    if you need to delete the branch manually:
+    git branch -D changeBranch
+
+12. Note on doing matrix
+on: [push, workflow_dispatch]
+    branches: [main, prod]
+   
+   branches:
+      - "main"  
       - "prod"
 
 
-10. Install the GitHub actions extension for VSCode
+13. Install the GitHub actions extension for VSCode
     (this will make it easier to do work with actions from VSCode)
-11. Break the code, raise 
+14. Break the code, raise Exception()
 
